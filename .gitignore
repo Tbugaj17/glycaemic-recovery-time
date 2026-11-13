@@ -1,0 +1,47 @@
+# --- Data (never commit) ---
+*.jld2
+*.sas7bdat
+*.csv
+*.xlsx
+*.txt
+*.arrow
+*.parquet
+
+# --- Manuscript (keep private for now) ---
+*.qmd
+*.bib
+
+# --- Figures with individual-level DiaMonT data ---
+figure_reliability.png
+
+# --- Quarto / LaTeX output ---
+.quarto/
+_freeze/
+*_files/
+*.pdf
+*.html
+*.tex
+*.log
+*.aux
+
+# --- Julia ---
+*.jl.cov
+*.jl.*.cov
+*.jl.mem
+
+# --- Python (flowchart script) ---
+__pycache__/
+*.pyc
+
+# --- Editors and system files ---
+.vscode/
+Thumbs.db
+desktop.ini
+~$*
+!reference-linenumbers.docx
+
+# --- Paper files to ignore ---
+*.docx
+*.pdf
+*.qmd
+*.bib
